@@ -1,0 +1,6 @@
+[submodule "BEiT-CUBOX"]
+	path = BEiT-CUBOX
+	url = https://github.com/yuuraa/BEiT-CUBOX
+[submodule "CUBOX_classification"]
+	path = CUBOX_classification
+	url = https://github.com/yuuraa/CUBOX_classification.git
