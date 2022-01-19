@@ -133,14 +133,6 @@
     CUDA_VISIBLE_DEVICES=0 python3 inference_log.py --ckpt_dir [CHECKPOINT_PATH] --data_config all2all --data_root /dataset/images > [LOG_OUTPUT_FILE]
     ```
 
-### 검증 환경
-- RAM 사양
-- GPU 사양: 1 RTX2080Ti
-- CPU 사양: 
-- HDD 용량: 
-- OS 버전: 
-- 사용 프레임워크 버전 정보: Dockerfile 확인
-
 
 ## Segmentation
 ### Train (from scratch)
@@ -165,21 +157,12 @@
     ```
 
 
-
-### 검증 환경
-- RAM 사양
-- GPU 사양: 4 Telsa V100
-- CPU 사양: 
-- HDD 용량: 
-- OS 버전: 
-- 사용 프레임워크 버전 정보: Dockerfile 확인
-
-
 ## 결과물
+- results 폴더
 ### Classification
-- ROC Curve per Class
-- Accuracy, AUC, F1 Score Evaluation Result
+- ROC Curve per Class: roc_curves
+- Accuracy, AUC, F1 Score Evaluation Result: eval_result.txt
 
 ### Segmentation
-- Precision-Recall Curve per Class
-- mAP Evaluation Result
+- Precision-Recall Curve per Class: precision_recall_curves
+- mAP Evaluation Result: result_map.txt
