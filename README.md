@@ -4,7 +4,7 @@
 ### 학습, 평가 수행 환경 설정
 - 소스 코드 다운로드 (위치: PATH_TO_CODE)
     ```bash
-    git clone https://github.com/Yuuraa/CUBOX_final
+    git clone https://github.com/Yuuraa/CUBOX_final --recurse-submodules
     ```
 - 이미지 명: yoorachoi/cubox:beit-resnet
 - 명령어
